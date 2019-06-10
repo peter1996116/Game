@@ -12,6 +12,8 @@
 		2FD53CAF228447C50065DD74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD53CAD228447C50065DD74 /* Main.storyboard */; };
 		2FD53CB1228447C60065DD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD53CB0228447C60065DD74 /* Assets.xcassets */; };
 		2FD53CB4228447C60065DD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD53CB2228447C60065DD74 /* LaunchScreen.storyboard */; };
+		2FD53CC0228453F20065DD74 /* game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD53CBF228453F20065DD74 /* game1.swift */; };
+		2FD53CD622A2A3700065DD74 /* gradess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD53CD522A2A3700065DD74 /* gradess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2FD53CB0228447C60065DD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD53CB3228447C60065DD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FD53CB5228447C60065DD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD53CBF228453F20065DD74 /* game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game1.swift; sourceTree = "<group>"; };
+		2FD53CD522A2A3700065DD74 /* gradess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = gradess.swift; path = ../gradess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		2FD53CA8228447C50065DD74 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				2FD53CD522A2A3700065DD74 /* gradess.swift */,
 				2FD53CA9228447C50065DD74 /* AppDelegate.swift */,
 				2FD53CAB228447C50065DD74 /* ViewController.swift */,
 				2FD53CAD228447C50065DD74 /* Main.storyboard */,
+				2FD53CBF228453F20065DD74 /* game1.swift */,
 				2FD53CB0228447C60065DD74 /* Assets.xcassets */,
 				2FD53CB2228447C60065DD74 /* LaunchScreen.storyboard */,
 				2FD53CB5228447C60065DD74 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD53CAC228447C50065DD74 /* ViewController.swift in Sources */,
+				2FD53CD622A2A3700065DD74 /* gradess.swift in Sources */,
 				2FD53CAA228447C50065DD74 /* AppDelegate.swift in Sources */,
+				2FD53CC0228453F20065DD74 /* game1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
